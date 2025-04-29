@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wooden Phone Dock — подставка из натурального дерева</title>
+    <style>
+        :root {
+            --primary: #4CAF50;
+            --telegram: #0088cc;
+            --email: #d44638;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        .made-in-russia {
+            display: inline-block;
+            background: linear-gradient(to right, #0039a6, #d52b1e);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.02);
+        }
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .order-box {
+            background: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 40px 0;
+            border: 2px solid var(--primary);
+            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.1);
+        }
+        .contact-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 25px;
+            margin: 10px 0;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+        .contact-button img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            margin: 0;
+            box-shadow: none;
+        }
+        .telegram {
+            background: rgba(0, 136, 204, 0.1);
+            color: var(--telegram);
+        }
+        .email {
+            background: rgba(212, 70, 56, 0.1);
+            color: var(--email);
+        }
+        .contact-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .work-hours {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 15px;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #888;
+            font-size: 14px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        .site-link {
+            color: var(--primary);
+            text-decoration: none;
+            border-bottom: 1px dashed currentColor;
+            transition: all 0.3s;
+        }
+        .site-link:hover {
+            color: #3d8b40;
+            border-bottom-style: solid;
+        }
+        .website-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            margin-top: 20px;
+            background: var(--primary);
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .website-btn:hover {
+            background: #3d8b40;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(61, 139, 64, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="https://Wooden-Phone-Dock.ru" class="site-link">
+                Wooden Phone Dock
+            </a>
+        </h1>
+        <p>Экологичная подставка для телефона из натурального дерева</p>
+        <div class="made-in-russia">Сделано в России</div>
+    </header>
+
+    <section id="main-photo">
+        <img src="https://i.postimg.cc/7hfjbyJK/IMG-20250429-095410-379.jpg" alt="Деревянная подставка для телефона" loading="lazy">
+        <p style="text-align: center; font-style: italic; color: #666;">Ручная работа из массива дуба с защитной пропиткой</p>
+    </section>
+
+    <section id="history">
+        <h2>Историческая справка</h2>
+        <p>Дерево в быту использовалось с древнейших времён. Наши предки создавали из него предметы обихода, которые служили десятилетиями. Эта традиция продолжается в наших подставках — каждый экземпляр несёт в себе тепло натурального материала и многовековые традиции столярного мастерства.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Наши работы</h2>
+        <div class="gallery-grid">
+            <img src="https://i.postimg.cc/7hfjbyJK/IMG-20250429-095410-379.jpg" alt="Деревянная подставка - вид 1" loading="lazy">
+            <img src="https://i.postimg.cc/BbkkKwx4/IMG-20250429-095448-778.jpg" alt="Деревянная подставка - вид 2" loading="lazy">
+        </div>
+    </section>
+
+    <div class="order-box">
+        <h2>Как заказать?</h2>
+        
+        <div style="margin: 15px 0;">
+            <a href="https://t.me/feokorn" target="_blank" class="contact-button telegram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+                @feokorn
+            </a>
+        </div>
+
+        <div style="margin: 15px 0;">
+            <a href="mailto:feofankorneplod@gmail.com" class="contact-button email">
+                <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Email">
+                feofankorneplod@gmail.com
+            </a>
+        </div>
+
+        <a href="https://Wooden-Phone-Dock.ru" class="website-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 9v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path>
+                <line x1="21" y1="3" x2="14" y2="10"></line>
+                <line x1="21" y1="3" x2="12" y2="3"></line>
+                <line x1="21" y1="3" x2="21" y2="12"></line>
+            </svg>
+            Перейти на сайт
+        </a>
+
+        <div class="work-hours">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            Работаем ежедневно с 10:00 до 20:00
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            © 2023 
+            <a href="https://Wooden-Phone-Dock.ru" class="site-link">
+                Wooden-Phone-Dock.ru
+            </a> | 
+            Все изделия производятся вручную в России
+        </p>
+        <p style="margin-top: 5px;">ИП Феокорнеплодов Ф.Ф. | ОГРНИП 1234567890123</p>
+    </footer>
+</body>
+</html>
